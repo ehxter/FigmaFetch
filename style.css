@@ -74,8 +74,6 @@ button {
 
 div#resBox {
     margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
     border: none;
     background-color: #F5F5F9;
     border-radius: 1rem;
