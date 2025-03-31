@@ -1,5 +1,6 @@
 ![Figma Fetch Logo](https://ehxter.github.io/FigmaFetch/Assets/FigmaFetch.svg)
 
+
 ## Figma Fetch
 
 This web based tool uses Figma REST API and a `DOCUMENT` ID input to request and process and extract some basic `COMPONENT`, `COMPONENT-SET`, and `DOCUMENT` data, including Node IDs.
