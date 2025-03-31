@@ -111,7 +111,7 @@
                     // Display the results
                     let resultHTML = `
                         <div id=resBox>
-                            <h2>Figma File Information:</h2>
+                            <h3>Figma File Information:</h3>
                             <p><strong>File Name:</strong> ${fileName}</p>
                             <p><strong>File ID:</strong> ${fileId}</p>
                             <p><strong>Last Update:</strong> ${lastUpdate}</p>
@@ -119,14 +119,14 @@
                             <p><strong>Total Components:</strong> ${totalComponents}</p>
                             <h3>List of Component Sets:</h3>
                             <ul>
-                        </div>
+                        
                     `;
 
                     componentSetsList.forEach(item => {
                         resultHTML += `<li>${item.name} (Node ID: ${item.node_id})</li>`;
                     });
 
-                    resultHTML += '</ul>';
+                    resultHTML += '</ul></div>';
 
                     document.getElementById('results').innerHTML = resultHTML;
 
