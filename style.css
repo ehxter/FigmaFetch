@@ -89,6 +89,8 @@ div#resBox {
 }
 
 a {
+    font-size: 14px;
+    color: #484B62;
     justify-content: center;
     align-items: center;
     display: flex;
