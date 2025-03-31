@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Inter Tight', sans-serif;
+    color: #6F7285;
+    display: flex; 
+    flex-direction: column;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    max-width: 400px;
+}
+
+
+div#logo{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    margin: 2.5rem;
+    padding-right: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input {
+    color: #6F7285;
+    border: none;
+    height: 48px;
+    padding: 0px 16px;
+    border-radius: 10px;
+    background: #F5F5F9;
+    width: auto;
+    font-size: 16px;
+}
+
+
+
+input::placeholder {
+    font-size: 14px;
+    color: #9DA1B1;
+    opacity: 1; /* Firefox */
+}
+
+/* ---- AutoFill Background Color Override ---- */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #F5F5F9 inset !important;
+}
+
+/* ---- AutoFill Text Color Override ---- */
+input:-webkit-autofill{
+    -webkit-text-fill-color: #6F7285 !important;
+}
+
+
+button {
+    background: #16171A;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;    
+    margin-top: 1rem;
+    height: 48px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+div#resBox {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    background-color: #F5F5F9;
+    border-radius: 1rem;
+    padding: 1rem;
+}
