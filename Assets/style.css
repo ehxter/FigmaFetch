@@ -87,9 +87,8 @@ a{
    color: #DF0F50 
 }
 
-a#butt {
+a#butt{
     font-size: 14px;
-    color: #484B62;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -103,6 +102,37 @@ a#butt {
     transition: 0.3s ease-in-out 0s;
 }
 
+div#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+div#githelp{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 16px;
+    align-items: center;
+}
+
+a#help{
+    font-size: 14px;
+    color:#9DA1B1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.3s ease-in-out 0s;
+}
+
+a#help:hover{
+    color:#484B62
+}
 
 a#butt:hover{
     background-color: #E6E7EF;
