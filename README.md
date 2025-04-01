@@ -1,4 +1,4 @@
-![Figma Fetch Logo](assets/ff-icon.svg)
+![Figma Fetch Logo](Assets/ff-icon.svg)
 
 ## Figma Fetch
 
