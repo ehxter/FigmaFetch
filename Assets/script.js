@@ -24,7 +24,7 @@ document.getElementById('figmaForm').addEventListener('submit', async function(e
             let totalComponents = 0;
             const componentSetsList = [];
 
-            // Recursively search for components and component sets
+            // search for components and component sets
             function findComponents(nodes) {
                 nodes.forEach(node => {
                     if (node.type === "COMPONENT_SET") {
@@ -34,7 +34,7 @@ document.getElementById('figmaForm').addEventListener('submit', async function(e
                         totalComponents++;
                     }
 
-                    // Recursively check children nodes
+                    // check children nodes
                     if (node.children) {
                         findComponents(node.children);
                     }
@@ -66,7 +66,7 @@ document.getElementById('figmaForm').addEventListener('submit', async function(e
 
             document.getElementById('results').innerHTML = resultHTML;
 
-            // Optionally, download the JSON data
+            // Download the JSON data
             const outputData = {
                 file_name: fileName,
                 file_id: fileId,
