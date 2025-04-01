@@ -47,10 +47,10 @@ document.getElementById('figmaForm').addEventListener('submit', async function(e
             let resultHTML = `
                 <div id=resBox>
                     <h3>Figma File Information:</h3>
-                    <p><strong>File Name:</strong> ${fileName}</p>
+                    <p><strong>File:</strong> ${fileName}</p>
                     <p><strong>File ID:</strong> ${fileId}</p>
                     <p><strong>Last Update:</strong> ${lastUpdate}</p>
-                    <p><strong>Total Component Sets:</strong> ${totalComponentSets}</p>
+                    <p><strong>Total Component-Sets:</strong> ${totalComponentSets}</p>
                     <p><strong>Total Components:</strong> ${totalComponents}</p>
                     <h3>List of Component Sets:</h3>
                     <ul>
