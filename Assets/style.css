@@ -3,9 +3,9 @@
 @media (max-width: 1079px) {
 
     body {
-            min-height: 100vh;
+            min-height: 95vh;
     }
-    
+
     div#footer{
         margin-bottom: 1rem;
     
