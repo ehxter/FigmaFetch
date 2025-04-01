@@ -38,27 +38,20 @@
             </defs>
           </svg>
     </div>
-    <!-- <h1>Figma File Information</h1> -->
-
-    <form id="figmaForm">
-        <!-- <label for="figmaToken">Enter Figma API Token:</label> -->
-        <input type="text" id="figmaToken" placeholder="Figma API Token" required>
-
-        <!-- <label for="fileId">Enter Figma File ID:</label> -->
-        <input type="text" id="fileId" placeholder="File ID">
-
-        <button type="submit">Fetch File Data</button>
-    </form>
-
-    <div id="results"></div>
 
 
-
-
-
-
-
-<script src="assets/script.js"></script>
-
+    <div id="resBox">
+        <h3>Figma Personal Access Token</h3>
+        <p>A token is needed to grant Figma API access to  to your files, you will need a personal access token.</p>
+        <p>Learn how to create one <a href="https://help.figma.com/hc/en-us/articles/8085703771159-Manage-personal-access-tokens" target="_blank">in this link</a></p>
+        <p>‌ ‌</p>
+        <h3>File ID</h3>
+        <p>A file ID is a unique string that represents your file node in figma.</p>
+        <p>To find it simply copy the share link to your file and extract the value between the two slashes as shown below.</p>
+        <img src="assets/FileID.png"  alt="a Figma link highlighting file ID" width="100%">
+        <p>Simply copy and paste these values into Figma Fetch and press "Fetch"</p>
+        <a href="/index.html">Go back to Figma Fetch</a>
+    </div>
+    
 </body>
 </html>

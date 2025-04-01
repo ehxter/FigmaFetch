@@ -78,6 +78,7 @@ document.getElementById('figmaForm').addEventListener('submit', async function(e
             const jsonBlob = new Blob([JSON.stringify(outputData, null, 2)], { type: 'application/json' });
             const jsonUrl = URL.createObjectURL(jsonBlob);
             const downloadLink = document.createElement('a');
+            downloadLink.setAttribute("id", "butt")
             downloadLink.href = jsonUrl;
             downloadLink.download = 'figma_data.json';
             downloadLink.innerText = 'Download Data as JSON';

@@ -1,4 +1,4 @@
-![Figma Fetch Logo](https://ehxter.github.io/FigmaFetch/Assets/ff-icon.svg)
+![Figma Fetch Logo](assets/ff-icon.svg)
 
 ## Figma Fetch
 

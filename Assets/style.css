@@ -11,6 +11,9 @@ body {
     max-width: 400px;
 }
 
+h3{
+    color:#16171A;
+}
 
 div#logo{
     display: flex; 
@@ -71,14 +74,6 @@ button {
     transition: 0.1s ease-in-out 0s;
 }
 
-button:hover {
-    background:#484B62
-}
-button:active {
-    transform: scale(0.98);
-    background:#484B62
-    
-}
 
 div#resBox {
     margin-top: 2.5rem;
@@ -88,7 +83,11 @@ div#resBox {
     padding: 1rem;
 }
 
-a {
+a{
+   color: #DF0F50 
+}
+
+a#butt {
     font-size: 14px;
     color: #484B62;
     justify-content: center;
@@ -103,10 +102,11 @@ a {
     border-radius: 12px;
     transition: 0.3s ease-in-out 0s;
 }
-a:hover{
+
+
+a#butt:hover{
     background-color: #E6E7EF;
 }
-
 
 div#results{
     margin-bottom: 2rem;
