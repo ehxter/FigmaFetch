@@ -12,6 +12,10 @@ body {
     max-width: 400px;
 }
 
+div#container{
+    padding: 20px;
+}
+
 h3{
     color:#16171A;
 }
@@ -104,7 +108,7 @@ a#butt{
 }
 
 div#footer{
-    padding-left: 8px;
+    padding: 24px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
