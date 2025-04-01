@@ -19,6 +19,7 @@ div#container{
 
 h3{
     color:#16171A;
+    margin: 8px 0px;
 }
 
 div#logo{
@@ -130,9 +131,9 @@ div#githelp{
 a#help{
     font-size: 14px;
     color:#9DA1B1;
-    justify-content: center;
-    align-items: center;
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
     font-weight: 500;
     text-decoration: none;
     transition: 0.3s ease-in-out 0s;

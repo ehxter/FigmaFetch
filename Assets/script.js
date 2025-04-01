@@ -46,7 +46,7 @@ document.getElementById('figmaForm').addEventListener('submit', async function(e
             // Display the results
             let resultHTML = `
                 <div id=resBox>
-                    <h3 style="margin: 8px 0px;">${fileName}</h3>
+                    <h3>${fileName}</h3>
                     <p style="margin: 8px 0px;"><strong>File ID:</strong> ${fileId}</p>
                     <p style="margin: 8px 0px;"><strong>Last Update:</strong> ${lastUpdate}</p>
                     <p style="margin: 8px 0px;"><strong>Total Component-Sets:</strong> ${totalComponentSets}</p>
