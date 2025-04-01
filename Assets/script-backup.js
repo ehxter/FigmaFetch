@@ -46,23 +46,22 @@ document.getElementById('figmaForm').addEventListener('submit', async function(e
             // Display the results
             let resultHTML = `
                 <div id=resBox>
-                    <h3 style="margin: 8px 0px;">${fileName}</h3>
-                    <p style="margin: 8px 0px;"><strong>File ID:</strong> ${fileId}</p>
-                    <p style="margin: 8px 0px;"><strong>Last Update:</strong> ${lastUpdate}</p>
-                    <p style="margin: 8px 0px;"><strong>Total Component-Sets:</strong> ${totalComponentSets}</p>
-                    <p style="margin: 8px 0px;"><strong>Total Components:</strong> ${totalComponents}</p>
-                    </div>
-                    <div id="resBox">
-                    <table>
-                    <tr><th id="name">Component</th><th id="node">Node ID</th></tr>
+                    <h3>Figma File Information:</h3>
+                    <p><strong>File:</strong> ${fileName}</p>
+                    <p><strong>File ID:</strong> ${fileId}</p>
+                    <p><strong>Last Update:</strong> ${lastUpdate}</p>
+                    <p><strong>Total Component-Sets:</strong> ${totalComponentSets}</p>
+                    <p><strong>Total Components:</strong> ${totalComponents}</p>
+                    <h3>List of Component Sets:</h3>
+                    <ul>
                 
             `;
 
             componentSetsList.forEach(item => {
-                resultHTML += `<tr><td id="name">❖ ${item.name}</td><td id="node">${item.node_id}</td><tr>`;
+                resultHTML += `<li>${item.name} (Node ID: ${item.node_id})</li>`;
             });
 
-            resultHTML += '</table></div>';
+            resultHTML += '</ul></div>';
 
             document.getElementById('results').innerHTML = resultHTML;
 

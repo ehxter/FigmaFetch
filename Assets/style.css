@@ -95,11 +95,11 @@ button {
 
 
 div#resBox {
-    margin-top: 2.5rem;
+    margin-top: 0.75rem;
     border: none;
     background-color: #F5F5F9;
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 1.25rem;
 }
 
 a{
@@ -114,7 +114,7 @@ a#butt{
     height: 48px;
     font-weight: 500;
     text-decoration: none;
-    margin-top: 12px;
+    margin-top: 0.75rem;
     color:#484B62;
     background-color:#F5F5F9;
     border-radius: 12px;
@@ -161,15 +161,55 @@ a#butt:hover{
 
 div#results{
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 
-ul {
-    list-style-type: "❖ ";
-    margin: 0;
-    padding-left: 20px;
+table{
+    width: 100%;
 }
 
-li{
-    padding-bottom: 4px;
+tr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+th{
+    padding: 4px 0px 12px 0px;
+}
+
+td{
+    padding: 4px 0px;
+}
+
+th#name{
+    color:#9DA1B1;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+th#node{
+    color:#9DA1B1;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+td#name{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+td#node{
+    color:#9DA1B1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
