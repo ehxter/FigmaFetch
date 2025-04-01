@@ -1,21 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
-@media (max-width: 400px) {
-
-    body {
-            min-height: 95vh;
-    }
-
-    div#footer{
-        margin-bottom: 1rem;
-    
-    }
-
-}
-
 
 body {
-    min-height: 100vh;
+    min-height: 95vh;
     font-family: 'Nunito Sans', sans-serif;
     color: #6F7285;
     display: flex; 
