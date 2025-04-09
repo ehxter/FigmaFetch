@@ -81,6 +81,11 @@ button {
     transition: 0.1s ease-in-out 0s;
 }
 
+button:Hover {
+    background:#484B62;
+    transform: scale(98%);
+}
+
 
 div#resBox {
     margin-top: 0.75rem;
